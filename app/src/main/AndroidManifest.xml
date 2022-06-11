@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnessapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.ThemChiTietThucDon" />
+        <activity android:name=".Admin.ThemThucDon" />
+        <activity android:name=".Admin.QuanLyChiTietThucDon" />
+        <activity android:name=".Admin.QuanLyThucDon" />
+        <activity android:name=".Admin.ThemChiTietBaiTap" />
+        <activity android:name=".Admin.QuanLyChiTietBaiTap" />
+        <activity android:name=".Admin.ThemChuongTrinhTap" />
+        <activity android:name=".Admin.QuanLyChuongTrinhTap" />
+        <activity android:name=".GiaoDienAdmin" />
+        <activity android:name=".DangNhapAdmin" />
+        <activity android:name=".ChiTietCacBaiTap" />
+        <activity android:name=".ThucDonDinhDuong" />
+        <activity android:name=".CacBaiTap" />
+        <activity android:name=".XemChiTietThucDon" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

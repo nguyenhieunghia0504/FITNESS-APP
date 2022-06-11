@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Đăng nhập"
+    android:id="@+id/action_dangnhap"
+    />
+    <item
+        android:title="Đăng nhập admin"
+        android:id="@+id/dangnhapadmin"
+        />
+</menu>

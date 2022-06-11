@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen2"
+    tools:context=".GiaoDienAdmin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/aguafina_script"
+        android:text="Xin chào admin"
+
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_quanly_bt"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/botron_buton"
+            android:text="Quản Lý Các Bài Tập"
+
+            />
+        <Button
+            android:id="@+id/btn_quanly_dinhduong"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/botron_buton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý Thực đơn dinh dưỡng"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
